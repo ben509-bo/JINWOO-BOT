@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'Jinwoo-Bot:~cgJwWIJT#kMJWm2Tq9ZiYIrnD3lKDr0gU1SPS0qGpy7Z6RPBNUUY' 
 //Enter your Xploader session id here; must start with Jinwoo-Bot:~
 
 //=================================================//
@@ -23,16 +23,16 @@ global.botname = process.env.BOT_NAME || 'ᎫᏆΝᏔϴϴ ᏴϴͲ'
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '263714757857' 
+global.ownernumber = process.env.OWNER_NUMBER || '50941610347' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263780934873', '263780166288'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : [''];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Malvin' 
+global.ownername = process.env.OWNER_NAME || 'Carl' 
 //Type your name here
 
 //=================================================//
@@ -60,7 +60,7 @@ global.mode = process.env.MODE || 'public';
 //=================================================//
 global.hituet = 0 
 //=================================================//
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
 
 //=================================================//
 //=================================================//
