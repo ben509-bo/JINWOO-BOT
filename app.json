@@ -10,18 +10,18 @@
   },
   "env": {
     "SESSION_ID": {
-      "description": "Enter your JINWOO session id here; must start with Jinwoo-Bot:~",
-      "value": "",
-      "required": false
+      "description": "Jinwoo-Bot:~cgJwWIJT#kMJWm2Tq9ZiYIrnD3lKDr0gU1SPS0qGpy7Z6RPBNUUY",
+      "value": "Jinwoo-Bot:~cgJwWIJT#kMJWm2Tq9ZiYIrnD3lKDr0gU1SPS0qGpy7Z6RPBNUUY",
+      "required": true
     },
     "BOT_NAME": {
-      "description": "Enter your bot name here",
-      "value": "ᎫᏆΝᏔϴϴ ᏴϴͲ",
+      "description": "Carl",
+      "value": "Carl",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here",
-      "value": "263714757857",
+      "value": "50941610347",
       "required": true
     },
     "OWNER_NAME": {
@@ -61,7 +61,7 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "Set true to enable and false to disable auto status view",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "ANTI_CALL": {
